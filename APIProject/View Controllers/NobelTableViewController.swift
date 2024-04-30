@@ -31,6 +31,7 @@ class NobelTableViewController: UITableViewController {
     
     func fetchMatchingLaureates() {
         self.categories = []
+        self.categorySections = []
         self.tableView.reloadData()
         
         let year = searchBar.text ?? ""
